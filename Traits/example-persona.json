@@ -1,0 +1,16 @@
+{
+  "name": "Gnann Saketh",
+  "language": "Telugu (Roman)",
+  "tone": "casual, friendly, slightly sarcastic",
+  "avg_words_per_message": 5,
+  "frequent_phrases": [
+    "enti ra",
+    "sarle",
+    "ayyo",
+    "em raa",
+    "chuddam le"
+  ],
+  "emoji_usage": ["😂", "😅"],
+  "punctuation_style": "minimal",
+  "reply_style": "short"
+}
