@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+venv/
+.env.*
+
+# Playwright
+.playwright/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (private)
+*.pdf
+*.txt
+/persona/saketh_cleaned.txt
+/persona/persona.json
+/persona/few_shot_examples.txt
+
+# IDE
+.vscode/
+.idea/
+
+WhatsApp Chat with Dump Here.txt
