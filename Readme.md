@@ -159,9 +159,11 @@ This project is **not affiliated with WhatsApp or Meta**.
 
 ## 👨‍💻 Author
 
-Built by **Gnann Saketh**  
+Built by **Gnann Saketh**
+**Madan Aleti**
 AI / ML Engineer  
 
 ---
 
 ⭐ If you like this project, give it a star on GitHub!
+
