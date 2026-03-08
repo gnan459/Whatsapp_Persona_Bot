@@ -37,19 +37,19 @@ def get_messages(page):
 def is_bot_trigger(msg):
     try:
         lines = [l.strip() for l in msg.inner_text().split("\n") if l.strip()]
-
         content_lines = [l for l in lines if not TIME_PATTERN.fullmatch(l)]
-
+        
         if len(content_lines) < 2:
             return False
-
-        last_content = content_lines[-1].lower()
-
-        # 🔒 Only allow your own messages to trigger
-        sender_name = content_lines[0].lower()
-        if sender_name != "Gnann Saketh":
+        
+        # In groups, check sender name (first line)
+        sender = content_lines[0].lower()
+        
+        # Only trigger for your own messages
+        if sender != "you":  # "You" = your message in groups/DMs
             return False
-
+        
+        last_content = content_lines[-1].lower()
         return last_content == "bot"
     except:
         return False
